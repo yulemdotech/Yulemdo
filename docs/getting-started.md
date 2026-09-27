@@ -1,98 +1,43 @@
-# Yulemdo bilan ishlashni boshlash
+# Yulemdo haqida
 
-Bu hujjat Yulemdo ekotizimini sinovdan o‘tkazish, lokal muhitda ishlatish va loyihaga hissa qo‘shish uchun umumiy yo‘l-yo‘riq beradi.
+Bu hujjatlar katalogi Yulemdo ekotizimi haqida muhim ma’lumotlarni jamlaydi. Ushbu repository dastur kodini ishga tushirish uchun emas, balki Yulemdo’ning g‘oyasi, yo‘nalishlari, tamoyillari va rivojlanish rejasini saqlash uchun xizmat qiladi.
 
-## 1. Loyihani o‘rganish
+## Yulemdo nima?
 
-Avval loyiha maqsadini va asosiy yo‘nalishlarini tushunib oling:
+Yulemdo — O‘zbekistonda yaratilayotgan mustaqil raqamli ekotizim. Uning maqsadi foydalanuvchilarga qulay, xavfsiz va mahalliy ehtiyojlarga mos raqamli xizmatlarni yagona ekotizimga birlashtirishdir.
 
-- [README.md](../README.md)
-- [CONTRIBUTING.md](../CONTRIBUTING.md)
-- [docs/architecture.md](architecture.md)
+## Asosiy yo‘nalishlar
 
-## 2. Mahalliy muhit
+- **Yulemdo Search** — qidiruv va ma’lumot topish tajribasi
+- **Yulemdo Account** — yagona akkaunt va foydalanuvchi profili
+- **Yulemdo orqali kirish** — qo‘llab-quvvatlanadigan xizmatlarga yagona kirish
+- **Developer Platform** — kelajakdagi API, SDK va integratsiyalar yo‘nalishi
+- **Yulemdo AI** — hujjatlar, API va boshqa manbalar bilan ishlaydigan kelajakdagi AI yo‘nalishi
 
-Loyiha boshlanishdan oldin quyidagi asosiy narsalar mavjud bo‘lishi kerak:
+## Ushbu repository’da nimalar saqlanadi?
 
-- Git
-- Node.js yoki boshqa loyihada talab qilinadigan runtime
-- Paket manager
-- IDE / code editor
+- Yulemdo haqida umumiy ma’lumotlar
+- Ekotizim yo‘nalishlari va xizmatlar tavsifi
+- Mahsulot g‘oyalari va konsepsiyalar
+- Arxitektura bo‘yicha qarashlar
+- Rivojlanish bosqichlari va roadmap
+- Brend, til va foydalanuvchi tajribasi tamoyillari
+- Hamkorlik va hissa qo‘shish bo‘yicha ma’lumotlar
+- Kelajakdagi xizmatlar uchun konseptual hujjatlar
 
-Agar loyiha keyingi bosqichlarda frontend, backend, auth yoki API xizmatlarini qo‘shsa, ularni alohida konteyner yoki monorepo tuzilishida boshqarish mumkin.
+## Ushbu repository’da nimalar saqlanmaydi?
 
-## 3. Lokal ishlab chiqarish
+- Ishga tushiriladigan dastur kodi
+- Lokal o‘rnatish bo‘yicha texnik buyruqlar
+- Haqiqiy maxfiy kalitlar yoki parollar
+- Hali tasdiqlanmagan ma’lumotlar rasmiy fakt sifatida
 
-Proyektning texnik ishlash uslubi tayyorlash bosqichlarida quyidagilar bilan ishlanadi:
+## Hujjatlardan foydalanish
 
-```bash
-git clone https://github.com/yulemdotech/Yulemdo.git
-cd Yulemdo
-npm install
-npm run dev
-```
+- Ekotizim tuzilmasi uchun [architecture.md](architecture.md) faylini o‘qing.
+- Rivojlanish rejasi uchun [roadmap.md](roadmap.md) faylini o‘qing.
+- Umumiy hujjatlar ro‘yxati uchun [README.md](README.md) sahifasiga o‘ting.
 
-Agar loyiha keyinchalik boshqa stack bo‘lsa, bu qadamlar yangilanishi mumkin. Muhim narsa, ishlab qilishdan oldin loyiha uchun aniq start script va environment variables dokumentatsiyasi mavjud bo‘lishidir.
+## Hujjatlarni yangilash qoidasi
 
-## 4. Mahalliy konfiguratsiya
-
-Har bir xizmat yoki modul uchun quyidagi ma’lumotlar mavjud bo‘lishi kerak:
-
-- PORT
-- DATABASE_URL
-- JWT_SECRET
-- API_BASE_URL
-- ENV mode (`development`, `staging`, `production`)
-
-Barcha maxfiy ma’lumotlar `.env.example` yoki xuddi shunday namunaviy fayl orqali yoziladi.
-
-## 5. Test va tekshirish
-
-Loyihada quyidagi bosqichlar bo‘lishi kerak:
-
-- unit test
-- integration test
-- lint / formatting
-- build check
-
-Masalan:
-
-```bash
-npm run lint
-npm run test
-npm run build
-```
-
-## 6. Hissa qo‘shish
-
-O‘zgarishni boshlashdan oldin yangi branch oling:
-
-```bash
-git checkout -b feature/feature-name
-```
-
-Keyin kichik, tamoyili va aniq commitlar yozing. Pull request ochishda:
-
-- muammoni aniq ayting;
-- yechim nimadan iborat ekanini izohlang;
-- tekshirish bosqichlarini ko‘rsating;
-- kerak bo‘lsa screenshot yoki demo havolani qo‘shing.
-
-## 7. Kelajakda kerak bo‘ladigan texnik birliklar
-
-Yulemdo ekotizimi rivojlanar ekan, quyidagi qoliplarga ehtiyoj paydo bo‘ladi:
-
-- auth service
-- user profile service
-- search API
-- notifications
-- CMS / admin panel
-- analytics
-- developer portal
-- webhook system
-
-Bu xizmatlar bir-biriga to‘g‘ri va xavfsiz integratsiyalanishi kerak.
-
-## 8. Xulosa
-
-Yulemdo ekotizimi uchun muhim jihat — tizimning barcha qismi bir-biriga bog‘langan, xavfsiz, o‘zbek tiliga mos va kelajakga yo‘l ochadigan arxitekturani yaratishdir. Hujjatlarni muntazam yangilab borish loyiha boshqaruvini osonlashtiradi.
+Yangi ma’lumot qo‘shilganda u aniq, tushunarli va o‘zbek tilida yozilishi kerak. Reja yoki taxminlar **rejalashtirilmoqda**, **kelajakdagi yo‘nalish** yoki **taklif** sifatida belgilanadi. Tasdiqlanmagan xizmatlar mavjud xizmat sifatida ko‘rsatilmaydi.
