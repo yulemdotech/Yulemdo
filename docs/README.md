@@ -1,19 +1,26 @@
 # Hujjatlar indeksi
 
-Bu katalog Yulemdo ekotizimi uchun umumiy ma’lumot, arxitektura, boshlash va rivojlanish yo‘nalishini yoritadi.
+Bu repository Yulemdo ekotizimi uchun ma’lumotlar va konseptual hujjatlar bazasi hisoblanadi. Bu yerda dastur kodi ishga tushirilmaydi; Yulemdo’ning maqsadi, xizmatlari, tamoyillari va rivojlanish rejalari saqlanadi.
 
-## Dokmentatsiya
+## Asosiy hujjatlar
 
-- [getting-started.md](getting-started.md) — loyihani qanday ishga tushirish va rivojlantirishni ko‘rsatadi
-- [architecture.md](architecture.md) — tizim arxitekturasi va asosiy komponentlar
+- [Yulemdo haqida](getting-started.md) — repository maqsadi va ekotizim haqida umumiy ma’lumot
+- [architecture.md](architecture.md) — ekotizimning konseptual tuzilishi va asosiy yo‘nalishlari
 - [roadmap.md](roadmap.md) — kelajakdagi rivojlanish bosqichlari
 
-## Maqsadli foydalanish
+## Ma’lumotlar bo‘limlari
 
-- Loyiha haqida umumiy tushuncha olish uchun: [getting-started.md](getting-started.md)
-- Tizim komponentlari va interaksiyalarini bilish uchun: [architecture.md](architecture.md)
-- Reja va ustuvor vazifalarni ko‘rish uchun: [roadmap.md](roadmap.md)
+- Ekotizim konsepsiyasi
+- Xizmatlar va mahsulot yo‘nalishlari
+- Brend va foydalanuvchi tajribasi
+- Xavfsizlik va maxfiylik tamoyillari
+- AI, API va developer platform g‘oyalari
+- Hamkorlik, hamjamiyat va rivojlanish rejalari
 
-## Hissadorlar uchun
+## Muhim eslatma
 
-Hissa qo‘shish uchun [../CONTRIBUTING.md](../CONTRIBUTING.md) faylini o‘qing. Muammo yoki yangi g‘oya taklifi bilan chiqish uchun issue shablonlaridan foydalaning.
+Hujjatlarda mavjud xizmatlar, rejalashtirilayotgan imkoniyatlar va takliflar bir-biridan ajratib yozilishi kerak. Hali ishga tushmagan imkoniyatlar kelajakdagi reja yoki konsepsiya sifatida ko‘rsatiladi.
+
+## Hissa qo‘shish
+
+Hujjatga tuzatish yoki yangi ma’lumot qo‘shishdan oldin [../CONTRIBUTING.md](../CONTRIBUTING.md) faylini o‘qing. Takliflar aniq manba, izoh yoki tegishli muhokama bilan berilishi ma’qul.
