@@ -1,0 +1,52 @@
+name: Xatolik haqida xabar
+about: Yulemdo’da topilgan muammo haqida xabar bering
+title: "[BUG] "
+labels: bug
+assignees: ''
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Xabar berganingiz uchun rahmat! Muammoni imkon qadar batafsil tasvirlang.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Muammo tavsifi
+      description: Nima sodir bo‘ldi?
+      placeholder: Muammoni qisqacha va aniq yozing.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Takrorlash qadamlari
+      description: Muammoni qayta ko‘rish uchun qanday qadamlar kerak?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Kutilgan natija
+      description: Aslida nima bo‘lishi kerak edi?
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Muhit
+      placeholder: Brauzer, operatsion tizim yoki qurilma
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Qo‘shimcha ma’lumot
+      description: Screenshot, log yoki boshqa foydali ma’lumotlarni qo‘shing.
