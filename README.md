@@ -36,26 +36,13 @@ Yulemdo xizmatlari uchun yagona akkaunt tizimi.
 
 Yulemdo Account asosida boshqa qo‘llab-quvvatlanadigan xizmatlarga kirish imkoniyatini rivojlantirish.
 
-### 🧩 Developer Platform
-
-Kelajakda developerlar uchun:
-
-- API
-- SDK
-- Webhook
-- Integratsiyalar
-- Developer Documentation
-- Example loyihalar
-
-kabi imkoniyatlarni taqdim etish rejalashtirilmoqda.
-
 ---
 
-## 🤖 Yulemdo AI
+## 🤖 Yulemdo Asila
 
 Yulemdo ekotizimining kelajakdagi AI yo‘nalishi.
 
-AI quyidagi manbalar bilan ishlashi mumkin:
+Asila quyidagi manbalar bilan ishlashi mumkin:
 
 ```text
 Yulemdo Docs
@@ -64,7 +51,7 @@ Yulemdo API
      ↓
 GitHub
      ↓
-Yulemdo AI
+Yulemdo Asila
 ```
 
 ---
