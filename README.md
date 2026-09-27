@@ -65,3 +65,33 @@ Yulemdo API
 GitHub
      ↓
 Yulemdo AI
+```
+
+---
+
+## 📚 Hujjatlar
+
+Loyihaning asosiy hujjatlari quyida:
+
+- [docs/README.md](docs/README.md) — hujjatlar indeksi
+- [docs/getting-started.md](docs/getting-started.md) — loyiha bilan ishlash boshlash
+- [docs/architecture.md](docs/architecture.md) — tizim arxitekturasi
+- [docs/roadmap.md](docs/roadmap.md) — rivojlanish roadmap'i
+- [CONTRIBUTING.md](CONTRIBUTING.md) — hissa qo‘shish bo‘yicha yo‘l-yo‘riq
+
+---
+
+## 🚀 Asosiy maqsad
+
+Yulemdo ekotizimi O‘zbekistonda foydalanuvchilarga qulay, xavfsiz va integratsiyalashgan raqamli xizmatlar muhitini yaratishga qaratilgan. Loyiha:
+
+- foydalanuvchi tajribasini birlashtirish;
+- bir xizmatdan boshqa xizmatga oson kirishni ta’minlash;
+- mahalliy qiymat va til ehtiyojlarini aks ettirish;
+- kelajakdagi AI, API va developer ekotizimini yaratish uchun asos bo‘lish.
+
+---
+
+## 🤝 Hissa qo‘shish
+
+Loyihaga hissa qo‘shishni xohlaysangiz, [CONTRIBUTING.md](CONTRIBUTING.md) faylini o‘qing. Hujjatlar va tizimdan foydalanish bo‘yicha batafsil ma’lumot uchun [docs](docs/README.md) katalogini ko‘rib chiqing.
